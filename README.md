@@ -46,8 +46,8 @@ The MovieLens Latest Dataset is used which consists of 4 dataset files written i
 
 #### Notes
 - Install the following libraries before running the notebooks:
-pip install scikit-surprise
-pip install import-ipynb
+  > pip install scikit-surprise
+  > pip install import-ipynb
 
 
 ### Markdown
