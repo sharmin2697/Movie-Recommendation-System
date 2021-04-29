@@ -29,22 +29,26 @@ The MovieLens Latest Dataset is used which consists of 4 dataset files written i
 
 #### Tools and Technology
 1. Python 3.8.5
-   - **Libraries & Packages**: NumPy | Pandas | Matplotlib | Sklearn | Surprise
+   - **Libraries & Packages**: NumPy, Pandas, Matplotlib, Sklearn, Surprise
 3. Jupyter Notebook (Anaconda) 
 
 #### Contents
 1. **code** - This folder contains the main code to build the recommender system
-   * Functions.ipynb - *All function used in the following notebooks
-   * Data Pre-Processing.ipynb - *Data cleaning and pre-processing
-   * EDA.ipynb - *Visualizations
-   * Content Based Filtering.ipynb - *Code to build recommender system using tf-idf and cosine similarity
-   * Collaborative Filtering Memory Based.ipynb - *Code to build recommender system using item-based and user-based approach 
-   * Collaborative Filtering Model Based.ipynb - *Code to build recommender system using matrix factorization and clustering methods
+   * Functions.ipynb: *All function used in the following notebooks*
+   * Data Pre-Processing.ipynb: *Data cleaning and pre-processing*
+   * EDA.ipynb: *Code for visualizations*
+   * Content Based Filtering.ipynb: *Code to build recommender system using tf-idf and cosine similarity*
+   * Collaborative Filtering Memory Based.ipynb: *Code to build recommender system using item-based and user-based approach* 
+   * Collaborative Filtering Model Based.ipynb: *Code to build recommender system using matrix factorization and clustering methods*
 2. **data** - This folder contains the datasets of MovieLens 
 3. **images** - This folder contains images used to build GitHub Pages
 4. **report & presentation** - This folder contains the final report and presentation for this capstone project
 
 #### Notes
+- Install the following libraries before running the notebooks:
+pip install scikit-surprise
+pip install import-ipynb
+
 
 ### Markdown
 
