@@ -1,27 +1,23 @@
-## MOVIE RECOMMENDATION SYSTEM USING 
-## MOVIELENS DATA
+## MOVIE RECOMMENDATION SYSTEM 
+### USING MOVIELENS DATA
 
-### About
-
+#### About
 Personalized recommendations are of key importance when it comes to increasing business value and sales of products, along with customer retention and satisfaction. Companies generate higher revenues and save resources, by simply understanding individual customer behaviors. In recent times, a large portion of the information we see online, comes from recommendations catered to us based on content or products we have previously liked or invested in. Grouping similar users or items can allow for vast exposure of products to multiple users. Recommender systems are mainly of 2 types – Content-based Filtering and Collaborative Filtering (Memory-based and Model-based). Using both Implicit and Explicit ratings, companies can recommend relevant content to its users. 
 
 This project aims to build a movie recommendation system that utilizes explicit ratings and movie genres to make personalized recommendations. Machine Learning methods including Term Frequency and Inverse Document Frequency (TF-IDF), Similarity Metrics – Cosine similarity, Matrix Factorization methods – Singular Value Decomposition and Clustering is implemented, to showcase how different the different types of recommender systems answer various questions and the differences between the approaches. The methods are evaluated using Root Mean Squared Errors (RMSE scores) and hit rates against recommended movies.
 
 ![Movie Poster](/images/movies.jpg)
 
-### Goals
-
+#### Goals
 * Generate movie recommendations based on a particular Genre
 * Generate movie recommendations based on Movie Similarity
-* Generate movie recommendations based on User Similarity 
+* Generate movie recommendations based on User Similarity
 * Generate movie recommendations based on a user’s Past Preferences 
 
-### Data
+#### Data
+The MovieLens Latest Dataset is used which consists of 4 dataset files written in comma-separated values. Prior official permission to use the dataset for this project was obtained from GroupLens. The datasets, ‘movies.csv’ and ratings.csv’ are merged the final dataset explores 9742 unique movies, with over 100,000 ratings provided by 610 users. The dataset can be found on the [GroupLens Official Website](https://grouplens.org/datasets/movielens/).
 
-The MovieLens Latest Dataset is used which consists of 4 dataset files written in comma-separated values. Prior official permission to use the dataset for this project was obtained from GroupLens. The datasets, ‘movies.csv’ and ratings.csv’ are merged and utilized for creating the recommendation system. The final dataset explores 9742 unique movies, with over 100,000 ratings provided by 610 users. The dataset can befound on the [GroupLens Official Website](https://grouplens.org/datasets/movielens/)
-
-### Implementation
-
+#### Implementation
 1.	Content-based Filtering – Using TF_IDF and Cosine Similarity Metric
 2.	Collaborative Filtering
     - Memory-based – Using Cosine Similarity
@@ -31,6 +27,19 @@ The MovieLens Latest Dataset is used which consists of 4 dataset files written i
       * Singular Value Decomposition
       * KNNBasic
       * KNNWithMeans
+
+#### Tools and Technology
+1. Python 3.8.5
+   - **Libraries & Packages**: NumPy | Pandas | Matplotlib | Sklearn | Surprise
+3. Jupyter Notebook (Anaconda) 
+
+#### Contents
+
+
+#### Notes
+
+
+
 
 ### Markdown
 
