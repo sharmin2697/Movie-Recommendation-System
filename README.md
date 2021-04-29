@@ -1,10 +1,11 @@
-## MOVIE RECOMMENDATION SYSTEM USING MOVIELENS DATA
+## MOVIE RECOMMENDATION SYSTEM USING 
+## MOVIELENS DATA
 
 ### About
 
 Personalized recommendations are of key importance when it comes to increasing business value and sales of products, along with customer retention and satisfaction. Companies generate higher revenues and save resources, by simply understanding individual customer behaviors. In recent times, a large portion of the information we see online, comes from recommendations catered to us based on content or products we have previously liked or invested in. Grouping similar users or items can allow for vast exposure of products to multiple users. Recommender systems are mainly of 2 types – Content-based Filtering and Collaborative Filtering (Memory-based and Model-based). Using both Implicit and Explicit ratings, companies can recommend relevant content to its users. 
 
-This proejct aims to build a movie recommendation system that utilizes explicit ratings and movie genres to make personalized recommendations. Machine Learning methods including Term Frequency and Inverse Document Frequency (TF-IDF), Similarity Metrics – Cosine similarity, Matrix Factorization methods – Singular Value Decomposition and Clustering is implemented, to showcase how different the different types of recommender systems answer various questions and the differences between the approaches. The methods are evaluated using Root Mean Squared Errors (RMSE scores) and hit rates against recommended movies.
+This project aims to build a movie recommendation system that utilizes explicit ratings and movie genres to make personalized recommendations. Machine Learning methods including Term Frequency and Inverse Document Frequency (TF-IDF), Similarity Metrics – Cosine similarity, Matrix Factorization methods – Singular Value Decomposition and Clustering is implemented, to showcase how different the different types of recommender systems answer various questions and the differences between the approaches. The methods are evaluated using Root Mean Squared Errors (RMSE scores) and hit rates against recommended movies.
 
 ![Movie Poster](/images/movies.jpg)
 
@@ -23,20 +24,13 @@ The MovieLens Latest Dataset is used which consists of 4 dataset files written i
 
 1.	Content-based Filtering – Using TF_IDF and Cosine Similarity Metric
 2.	Collaborative Filtering
-a.	Memory-based – Using Cosine Similarity
-•	Item-based
-•	User-based
-b.	Model-based
-•	Singular Value Decomposition
-•	KNNBasic
-•	KNNWithMeans
-
-
-
-
-
-
-
+    - Memory-based – Using Cosine Similarity
+      * Item-based
+      * User-based
+    - Model-based
+      * Singular Value Decomposition
+      * KNNBasic
+      * KNNWithMeans
 
 ### Markdown
 
