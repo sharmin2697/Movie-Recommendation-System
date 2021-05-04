@@ -1,4 +1,4 @@
-## MOVIE RECOMMENDATION SYSTEM - USING MOVIELENS DATA
+## MOVIE RECOMMENDER SYSTEM - USING MOVIELENS DATA
 
 #### About
 Personalized recommendations are of key importance when it comes to increasing business value and sales of products, along with customer retention and satisfaction. Companies generate higher revenues and save resources, by simply understanding individual customer behaviors. In recent times, a large portion of the information we see online, comes from recommendations catered to us based on content or products we have previously liked or invested in. Grouping similar users or items can allow for vast exposure of products to multiple users. Recommender systems are mainly of 2 types – Content-based Filtering and Collaborative Filtering (Memory-based and Model-based). Using both Implicit and Explicit ratings, companies can recommend relevant content to its users. 
