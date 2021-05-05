@@ -32,8 +32,6 @@ The MovieLens Latest Dataset is used which consists of 4 dataset files written i
    - **Libraries & Packages**: NumPy, Pandas, Matplotlib, Sklearn, Surprise
 3. Jupyter Notebook (Anaconda) 
 
-#### Key Findings
-
 #### Conclusion
 Recommender Systems offer personalization and help in increased profits for companies and also allow users to find the most relevant products for their use. The goal of the project to achieve a high-level understanding of the various filtering methods and their subsequent technologies was accomplished. The literature survey explored the various techniques and their advantages and disadvantages which further guides in selecting better models and evaluation metrics depending on the data. Implementing content-based filtering allowed to solve the cold-start problem that posed as a restriction for collaborative filtering. However, Faster and efficient results were achieved using model-based collaborative filtering, compared to both memory-based methods and content-based filtering. The project also posed certain challenges including finding proper evaluation methods/metrics for Top-N recommendations, however, hit rate was used similar to precision metric. A hybrid approach and implementation of deep learning techniques can further improve the accuracy and efficiency of recommender systems.
 
